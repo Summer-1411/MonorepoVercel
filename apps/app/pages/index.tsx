@@ -18,11 +18,10 @@ export default function Index() {
   return (
     <Page>
       <Text variant="h1" className="mb-6">
-        Monorepo TUNGLV27
+          Summer
       </Text>
       <Text className="mb-4">
-        In this monorepo app we have a single site with two installed
-        dependencies that are available in the same repository.
+        Hello xin chào tất cả các bạn, chào mừng các bạn đã đến với Channel của mình
       </Text>
       <List className="mb-4">
         <li>
