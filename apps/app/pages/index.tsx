@@ -1,12 +1,13 @@
 import { useState, useEffect } from 'react'
 import { Layout, Page, Text, List, Code } from '@vercel/examples-ui'
 import { Button } from '@acme/ui'
-import { matchingTextColor, randomColor } from '@acme/utils'
+import { matchingTextColor, randomColor } from '@acme/ui'
 
 export default function Index() {
   const [bgColor, setBgColor] = useState('')
   const [textColor, setTextColor] = useState('')
   const changeColor = () => {
+      console.log('matchingTextColor',matchingTextColor)
     const bg = randomColor()
     setBgColor(bg)
     setTextColor(matchingTextColor(bg))
